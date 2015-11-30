@@ -25,7 +25,7 @@
                        { "name" : "psget", "pre" : 0 },
                        { "name" : "conemu", "pre" : 0 } 
                      ],
-    "git_repository_path" : "C:\\Code",
+    "git_repository_path" : "C:\\MyCode",
     "git_repository_url" : "URL",
     "git_url" : "URL",
     "git_user_name" : "name",
