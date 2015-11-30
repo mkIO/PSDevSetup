@@ -2,6 +2,14 @@
 
 Powershel scripts for setup basic developer enviroment.
 
+**To run this script it is requred to have installed PowerShell in version 4.0 or above.**
+
+To run script in PS you need to set execution plocy for current user using this command
+
+`Set-Executionpolicy -Scope CurrentUser -ExecutionPolicy UnRestricted`
+
+More information about PS plocy can be found here: https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/
+
 Script is using chocolatey and it is installing required software for my daily work as dev and clones git repository to specified folder.
 
 First setup git **repo url and username with password** using packages.json properties:
